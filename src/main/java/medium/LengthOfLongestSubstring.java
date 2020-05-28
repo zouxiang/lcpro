@@ -24,6 +24,8 @@ Input: "pwwkew"
 Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+https://leetcode.com/articles/longest-substring-without-repeating-characters/
  */
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
@@ -50,6 +52,5 @@ public class LengthOfLongestSubstring {
         System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring("pwwkew"));
         System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring("f;lajsdlfhkasf"));
         System.out.println(lengthOfLongestSubstring.lengthOfLongestSubstring(""));
-
     }
 }
